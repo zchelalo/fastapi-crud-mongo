@@ -3,21 +3,29 @@ API REST sencilla hecha con FastAPI y MongoDB.
 
 ## **Instalación:**  
 Para probar la API debe tener instalado python y mongodb, una vez con eso listo clone el proyecto:  
-> `git clone https://github.com/zchelalo/fastapi-crud-mongo.git`  
+```bash  
+git clone https://github.com/zchelalo/fastapi-crud-mongo.git  
+```   
   
 Despues de ello asegurese de estar dentro de la carpeta del proyecto y corra el siguiente comando:  
-> `pip install -r requirements.txt`  
+```bash  
+pip install -r requirements.txt  
+```    
   
 Es posible que si tiene mas de una versión de python falle y deba correr el siguiente comando en lugar del anterior:  
-  
-> `pip3 install -r requirements.txt`  
+```bash  
+pip3 install -r requirements.txt  
+```    
   
 Una vez hecho esto deberá correr el servidor con uvicorn a traves del siguiente comando:  
-> `uvicorn app:app`  
+```bash  
+uvicorn app:app  
+```  
   
 En caso de que quiera hacer un cambio y este se refleje automaticamente en el servidor deberá ejecutar el siguiente comando en lugar del anterior:  
-  
-> `uvicorn app:app --reload`  
+```bash  
+uvicorn app:app --reload  
+```  
   
 Una vez hecho todo esto basta con probar la aplicación dirigiendose a cada endpoint con la URL *http://localhost:8000/* en la cual esta alojado nuestro servidor.  
   
